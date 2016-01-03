@@ -1,0 +1,31 @@
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$grayMediumLight: #eaeaea;
+$lightGray: #999;
+$grayLighter: #999;
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#topsidebar {
+
+  margin-right: -10px;
+
+  padding-left: 45px;
+  padding-right: -45px;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-color: $grayMediumLight;
+  border-width: 1px;
+
+
+  background-color:#ffe;
+
+  border-top: 1px solid $grayMediumLight;
+}

@@ -1,0 +1,81 @@
+http://stackoverflow.com/questions/32899143/yahoo-finance-api-stock-ticker-lookup-only-allowing-exact-match?rq=1
+http://d.yimg.com/aq/autoc?query=nikkei&region=US&lang=en-US&callback=YAHOO.util.ScriptNodeDataSource.callbacks
+
+YAHOO.util.ScriptNodeDataSource.callbacks({
+"ResultSet":{
+  "Query":"nikkei",
+  "Result":[
+    {
+      "symbol":"^N225",
+      "name":"Nikkei 225",
+      "exch":"OSA",
+      "type":"I",
+      "exchDisp":"Osaka Stock Exchange",
+      "typeDisp":"Index"
+    },
+    {
+      "symbol":"NIYH16.CME",
+      "name":"Nikkei 225 Stock Average Index future",
+      "exch":"CME",
+      "type":"F",
+      "exchDisp":"Chicago Mercantile Exchange",
+      "typeDisp":"Futures"
+    },
+    {
+      "symbol":"NKY",
+      "name":"MAXIS Nikkei 225 ETF",
+      "exch":"PCX","type":"E",
+      "exchDisp":"NYSEArca",
+      "typeDisp":"ETF"
+    },
+    {
+      "symbol":"NKH16.CME",
+      "name":"Nikkei 225 Stock Average Index future",
+      "exch":"CME",
+      "type":"F",
+      "exchDisp":"Chicago Mercantile Exchange",
+      "typeDisp":"Futures"
+    },
+    {
+      "symbol":"NKDH16.CME",
+      "name":"Nikkei 225 Stock Average Index future",
+      "exch":"CME",
+      "type":"F",
+      "exchDisp":"Chicago Mercantile Exchange",
+      "typeDisp":"Futures"
+    },
+    {
+      "symbol":"XDJP.F",
+      "name":"DBX NIKKEI 225 DR",
+      "exch":"FRA",
+      "type":"E",
+      "exchDisp":"Frankfurt",
+      "typeDisp":"ETF"
+    },
+    {
+      "symbol":"NKM16.CME",
+      "name":"Nikkei 225 Stock Average Index future",
+      "exch":"CME",
+      "type":"F",
+      "exchDisp":"Chicago Mercantile Exchange",
+      "typeDisp":"Futures"
+    },
+    {
+      "symbol":"NIYM16.CME",
+      "name":"Nikkei 225 Stock Average Index future",
+      "exch":"CME",
+      "type":"F",
+      "exchDisp":"Chicago Mercantile Exchange",
+      "typeDisp":"Futures"
+    },
+    {
+      "symbol":"CNKY.L",
+      "name":"ISHARES VII PLC ISHARES NIKKEI ",
+      "exch":"LSE",
+      "type":"E",
+      "exchDisp":"London",
+      "typeDisp":"ETF"
+    },
+    {
+      "symbol":"NXKU.L",
+      "name":"Nomura Nikkei 225 USD-Hedged ETF","exch":"LSE","type":"E","exchDisp":"London","typeDisp":"ETF"}]}});
